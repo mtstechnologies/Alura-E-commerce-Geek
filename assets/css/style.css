@@ -154,6 +154,10 @@ nav{
     font-size: 32px;
     font-weight: bold;
 }
+.mostrar-mais {
+    font-weight: bold;
+    margin-top: 25px;
+}
 .sessao-produtos{
     display: flex;
     flex-wrap: wrap;
