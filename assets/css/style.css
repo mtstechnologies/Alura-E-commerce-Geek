@@ -1,3 +1,4 @@
+/*variaveis*/
 :root {
     --bg-color: #ebebeb;
     --input-placeholder: #d4d4d4;
@@ -91,16 +92,49 @@ nav{
     width: 600px;
     display: flex;
     justify-content: end;  
-  }
-  .login button{
+}
+.login button{
       width: 182px;
       height: 51px;
       background: none;
       border: solid 1px var(--azul-destaque);
+      color: var(--azul-destaque);
       text-transform: uppercase;
-  }
-  .login button:hover{
+}
+.login button:hover{
       background-color: var(--azul-destaque);
       color: var(--texto-destaque);
       transition: 0.5s;
-  }
+}
+.destaque{
+    height: 352px;
+    background-image: url("../img/banner.png");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    padding: 32px;
+}
+.banner{
+    width: 751px;
+    height: 320px;
+    padding-left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.banner h1 {
+    color: var(--texto-destaque);
+    font-size: 52px;
+    font-weight: bold;
+}
+.banner h4{
+    color: var(--texto-destaque);
+    font-size: 22px;
+    font-weight: bold;
+}
+.banner button{
+    background-color: var(--azul-destaque);
+    border: none;
+    color: var(--texto-destaque);
+    height: 51px;
+    width: 130px;
+}
