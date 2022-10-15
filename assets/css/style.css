@@ -167,3 +167,77 @@ nav{
     margin-bottom: 64px;
     justify-content: space-between;
 }
+.contato {
+    background-color: var(--bg-contato);
+    display: flex;
+    height: 365px;
+    justify-content: center;
+    padding: 64px 0;
+}
+.referencia {
+    display: flex;
+    width: 350px;
+    margin: 20px 0 0 0;
+}
+.referencia img{
+    width: 60px;
+    height: 40px;
+}
+.referencia p{
+    font-size: 26px;
+    font-weight: bolder;
+    color: var(--azul-destaque);
+    margin-top: 5px;
+    margin-left: 6px;
+}
+.links-uteis{
+    line-height: 40px;
+    width: 200px;
+    margin-right: 100px;
+}
+.links-uteis a {
+    color:black;
+    font-weight: normal;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 500px;
+}
+.form p{
+    font-weight: bolder;
+}
+.form input{
+    width: 475px;
+    position: relative;
+    height: 56px;
+    border: transparent;
+    margin-bottom: 20px;
+    padding: 0.5% 2.7%;
+    color: var(--azul-destaque);
+}
+.form input:hover{
+    border-bottom: solid 2px var(--azul-destaque);
+}
+.label-nome{
+    width: 100%;
+    position: absolute;
+    top: 80px; 
+    left: 9px;
+    transition: 0.5s;
+}
+.form textarea{
+    width: 100%;
+    font-family: 'Releway', sans-serif;
+    border: transparent;
+    color: var(--azul-destaque);
+    margin-bottom: 20px;
+   }
+   .form button{
+   background-color: var(--azul-destaque);
+   border: none;
+   color: var(--texto-destaque);
+   height: 51px;
+   width: 180px;
+   }
