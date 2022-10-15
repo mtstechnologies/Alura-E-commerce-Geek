@@ -106,6 +106,7 @@ nav{
       color: var(--texto-destaque);
       transition: 0.5s;
 }
+/*sessão de destaque*/
 .destaque{
     height: 352px;
     background-image: url("../img/banner.png");
@@ -137,4 +138,28 @@ nav{
     color: var(--texto-destaque);
     height: 51px;
     width: 130px;
+}
+/*sessão de produtos*/
+.geral-prods{
+    display: flex;
+    flex-direction: column;
+    width: 1136px;
+    margin: 0 auto;
+}
+.prod-titulo{
+    display: flex;
+    justify-content: space-between;
+}
+.prod-titulo .titulo{
+    font-size: 32px;
+    font-weight: bold;
+}
+.sessao-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 306px;
+    width: 1136px;
+    margin-bottom: 64px;
+    justify-content: space-between;
 }
